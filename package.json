@@ -1,0 +1,38 @@
+{
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-airbnb": "^2.2.3",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "chai": "^3.5.0",
+    "html-webpack-plugin": "^2.28.0",
+    "jsdom": "^9.12.0",
+    "mocha": "^3.2.0",
+    "react-addons-test-utils": "^15.4.2",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "name": "tddc",
+  "version": "1.0.0",
+  "description": "React, TDD, Enzyme, Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w test/helpers/browser.js test/*.spec.js",
+    "dev:hot": "webpack && webpack-dev-server --hot --inline"
+  },
+  "keywords": [
+    "React",
+    "TDD",
+    "Enzyme",
+    "Mocha"
+  ],
+  "author": "O'Brian Kim",
+  "license": "ISC",
+  "dependencies": {
+    "md5": "^2.2.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
